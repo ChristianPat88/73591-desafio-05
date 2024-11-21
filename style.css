@@ -1,0 +1,88 @@
+:root{
+  --color-fondo: #edece9;
+  --color-titulo: #775548;
+  --color-vinculos: #ee6d24;
+  --color-subtitulos: #e1d4cf;
+  --color-diario1: #3aabc4;
+  --color-diario2: #ef4b51;
+  --color-ultimo-articulo: #d6b03b;
+  --color-pie-pagina: #111;
+  --color-pie-texto: yellow;
+}
+
+body{
+  background-color: var(--color-fondo);
+  font-family: Verdana, Arial, sans-serif;
+  color: var(--color-titulo);
+}
+
+.imagen-principal{
+  width: 100%;
+}
+
+nav a{
+  font-size: 19px;
+}
+
+a{
+  font-weight: bold;
+  color: var(--color-vinculos);
+}
+
+article{
+  font-size: 13px;
+}
+
+h2{
+  background-color: var(--color-titulo);
+  color: var(--color-subtitulos);
+  font-size: 18px;
+}
+
+article>ul{
+  padding-left: 30px;
+}
+
+article>ol{
+  padding-left: 32px;
+}
+
+footer{
+  height: 100px;
+  background-color: var(--color-pie-pagina);
+}
+
+footer p{
+  text-align: center;
+  line-height: 100px;
+  margin: 0;
+  color: var(--color-pie-texto);
+}
+
+.elegirnos ul{
+  padding-left: 32px;
+}
+
+.instalaciones li:first-child{
+  font-weight: bold;
+}
+
+.notas-diarios p{
+  font-weight: bold;
+}
+
+.notas-diarios li:nth-child(1) a{
+  color: var(--color-diario1)
+}
+
+.notas-diarios li:nth-child(2) a{
+  color: var(--color-diario2)
+}
+
+.elegirnos h2{
+  color: var(--color-ultimo-articulo);
+}
+
+.elegirnos ol>li:last-child{
+  font-weight: bold;
+}
